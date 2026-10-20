@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const elements = document.querySelectorAll(
-    ".section-intro, .service-card, .capability-strip > *, .portfolio-card, .process-list li, .about-copy, .about-panel, .insight-grid article, .contact > *"
+    ".section-intro, .service-card, .capability-strip > *, .portfolio-card, .process-list li, .founder-portrait, .about-copy, .founder-note, .insight-grid article, .contact > *"
   );
 
   if (reduceMotion || !("IntersectionObserver" in window)) {
