@@ -6,4 +6,7 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH/
     - /bin/cp robots.txt $DEPLOYPATH/
     - /bin/cp sitemap.xml $DEPLOYPATH/
+    - /bin/cp favicon.svg $DEPLOYPATH/
+    - /bin/cp site.webmanifest $DEPLOYPATH/
+    - /bin/cp contact.php $DEPLOYPATH/
     - /bin/cp -R css js assets $DEPLOYPATH/

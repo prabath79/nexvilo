@@ -1,0 +1,16 @@
+{
+  "name": "NEXVILO",
+  "short_name": "NEXVILO",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#090d20",
+  "theme_color": "#090d20",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
